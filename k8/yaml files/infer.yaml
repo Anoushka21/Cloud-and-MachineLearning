@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ag8733inferencejob
+    labels:
+        app: serviceapi
+        tier: backend
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: serviceapi
+    template:
+        metadata:
+            labels:
+                app: serviceapi
+                tier: backend
+        spec:
+            containers:
+                - name: ag8733inference
+                  image: anoushkagupta/mnistinfer:v4
+                  ports:
+                      - containerPort: 8000
+                  volumeMounts:
+                  - name: ag8733pvc
+                    mountPath: /mnt
+            volumes:
+              - name: ag8733pvc
+                persistentVolumeClaim:
+                  claimName: ag8733pvc

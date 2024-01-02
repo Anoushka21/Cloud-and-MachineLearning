@@ -1,0 +1,11 @@
+numpy
+flask
+flask-cors
+Jinja2>=2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+gunicorn
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.11.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torchvision

@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ag8733trainjob5
+spec:
+  template:
+    metadata:
+      name: ag8733trainjob5
+    spec:
+      containers:
+      - name: train
+        image: anoushkagupta/mnisttrain:v4
+        volumeMounts:
+        - name: ag8733pvc
+          mountPath: /mnt
+      restartPolicy: Never
+      volumes:
+        - name: ag8733pvc
+          persistentVolumeClaim:
+            claimName: ag8733pvc
