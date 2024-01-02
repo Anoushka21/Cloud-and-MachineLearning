@@ -1,4 +1,4 @@
-# CloudML
+# Cloud-and-Machine-Learning
 Homeworks and projects for  CSCI-GA.3033-085 Cloud &amp; Machine Learning 
 
 #### HW-1 : Survey of Cloud Computing Services
