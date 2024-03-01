@@ -2,6 +2,7 @@
 Homeworks and projects for  CSCI-GA.3033-085 Cloud &amp; Machine Learning 
 
 #### HW-1 : Survey of Cloud Computing Services
+Survey and analysis of GCP, Amazon SageMaker and Microsoft Azure
 #### HW-2 : Performance Study of Transformers <br>
 Use profiling tools like nvprof,ncu and torchmetrics to profile the forward pass of a Transformer model
 #### HW-3 : Deepdive into Docker <br>
