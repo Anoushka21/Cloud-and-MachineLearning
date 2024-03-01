@@ -6,6 +6,7 @@ Survey and analysis of GCP, Amazon SageMaker and Microsoft Azure
 #### HW-2 : Performance Study of Transformers <br>
 Use profiling tools like nvprof,ncu and torchmetrics to profile the forward pass of a Transformer model
 #### HW-3 : Deepdive into Docker <br>
+Understand the key elements of Docker and containerization: Docker File, DockerHub and building a image, Docker Logs etc
 #### HW-4 : Model Trainig and Inference on GCP using Persistent Volume Storage <br>
 Use GKE (Google Kubernetes Enginee) to create clusters and use PVC for training and inference on cloud and a flask app for running the application.
 #### Project-1 : ImageNet Analysis <br>
